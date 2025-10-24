@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade Wii Apps</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #000;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #000;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .app-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            flex-shrink: 0;
+        }
+        .app-content {
+            flex: 1;
+        }
+        .app-card h2 {
+            color: #000;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .app-card p {
+            color: #000;
+            margin: 15px 0;
+        }
+        .app-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0 0;
+        }
+        .app-card li {
+            margin: 10px 0;
+        }
+        .app-card a {
+            color: #007AFF;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .app-card a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>iOS Apps by Jade Wii</h1>
+
+    <div class="app-card">
+        <img src="images/noiseface-icon.png" alt="NoiseFace" class="app-icon">
+        <div class="app-content">
+            <h2>NoiseFace</h2>
+            <p>A cute noise generator that visualizes sound through an adorable animated character. Mix up to 12 different noise colors, save your favorite combinations, and watch the waveforms dance!</p>
+            <ul>
+                <li><a href="noiseface-support.html">Support & FAQ</a></li>
+                <li><a href="noiseface-privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="app-card">
+        <img src="images/waveface-icon.png" alt="WaveFace" class="app-icon">
+        <div class="app-content">
+            <h2>WaveFace</h2>
+            <p>Professional waveform generator for iOS. Create and customize audio waveforms with 20+ different wave types including sine, square, sawtooth, triangle, and many more.</p>
+            <ul>
+                <li><a href="waveface-support.html">Support & FAQ</a></li>
+                <li><a href="waveface-privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p><small>&copy; 2025 Jade Wii. All rights reserved.</small></p>
+    </footer>
+</body>
+</html>
